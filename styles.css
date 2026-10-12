@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #191919;
+    background-color: #202832 ;
+}
+
+#banner-fundo {
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+
+#banner {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0 87px;
+    color: #FFF;
+}
+#logo {
+    width: 206px;
+}
+
+.banner-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 55px;
+    margin-top: 10px;
+}
+
+.banner-esquerda {
+    width: 520px;
+    margin-top: 60px;
+}
+
+.banner-esquerda h1 {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 55px;
+}
+
+.banner-direita img {
+    height: 540px;
+}
+
+#produtos {
+    background-color: #202832;
+    padding: 85px 0 80px 0;
+}
+
+#produtos h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.produtos-container {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    vertical-align: top;
+    width: 289px;
+    background-color: #FFF;
+    border-radius: 0 55px 0 55px;
+    padding: 20px 20px 35px 20px;
+    margin: 0 42px 60px 42px;
+    text-align: center;
+}
+
+.produto img {
+    width: 249px;
+    height: 250px;
+    border-radius: 0 55px 0 0;
+    margin-bottom: 28px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 0 30px;
+    margin-bottom: 12px;
+}
+
+.produto p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0 5px;
+}
+
+#detalhes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBDBDB;
+    padding: 77px;
+}
+
+#detalhes img {
+    width: 614px;
+    height: 614px;
+    border-radius: 0 140px 0 0;
+}
+
+.detalhes-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 521px;
+    padding-top: 20px;
+}
+
+.detalhes-textos h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.detalhes-textos p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 26px;
+}
+
+
+#rodape {
+    display: flex;
+    background-color: #202832 ;
+    color: #FFF;
+    padding: 95px 77px 139px 77px;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 606px;
+}
+
+.rodape-contato h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.rodape-contato h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.rodape-info {
+    width: 291px;
+}
+
+.rodape-info h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.rodape-info p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
